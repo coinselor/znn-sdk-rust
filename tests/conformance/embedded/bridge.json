@@ -1,0 +1,106 @@
+{
+  "description": "Bridge model conformance.",
+  "bridge_info": {
+    "administrator": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "compressedTssECDSAPubKey": "02compressed",
+    "decompressedTssECDSAPubKey": "04decompressed",
+    "allowKeyGen": true,
+    "halted": false,
+    "unhaltedAt": 0,
+    "unhaltDurationInMomentums": 10,
+    "tssNonce": 3,
+    "metadata": ""
+  },
+  "orchestrator_info": {
+    "windowSize": 5,
+    "keyGenThreshold": 3,
+    "confirmationsToFinality": 10,
+    "estimatedMomentumTime": 5,
+    "allowKeyGenHeight": 100
+  },
+  "token_pair": {
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "tokenAddress": "0xabc",
+    "bridgeable": true,
+    "redeemable": true,
+    "owned": false,
+    "minAmount": "1000000",
+    "feePercentage": 10,
+    "redeemDelay": 20,
+    "metadata": ""
+  },
+  "bridge_network_info": {
+    "networkClass": 1,
+    "chainId": 1,
+    "name": "Ethereum",
+    "contractAddress": "0xdef",
+    "metadata": "",
+    "tokenPairs": [
+      {
+        "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+        "tokenAddress": "0xabc",
+        "bridgeable": true,
+        "redeemable": true,
+        "owned": false,
+        "minAmount": "1000000",
+        "feePercentage": 10,
+        "redeemDelay": 20,
+        "metadata": ""
+      }
+    ]
+  },
+  "bridge_network_info_list": {
+    "count": 1,
+    "list": []
+  },
+  "wrap_token_request": {
+    "networkClass": 1,
+    "chainId": 1,
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "toAddress": "0xrecipient",
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "tokenAddress": "0xabc",
+    "amount": "100000000",
+    "fee": "1000000",
+    "signature": "0xsig",
+    "creationMomentumHeight": 50,
+    "confirmationsToFinality": 10
+  },
+  "wrap_token_request_list": {
+    "count": 1,
+    "list": []
+  },
+  "unwrap_token_request": {
+    "registrationMomentumHeight": 40,
+    "networkClass": 1,
+    "chainId": 1,
+    "transactionHash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "logIndex": 0,
+    "toAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "tokenAddress": "0xabc",
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "amount": "100000000",
+    "signature": "0xsig",
+    "redeemed": 0,
+    "revoked": 0,
+    "redeemableIn": 5
+  },
+  "unwrap_token_request_list": {
+    "count": 1,
+    "list": []
+  },
+  "zts_fees_info": {
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "accumulatedFee": "500000000"
+  },
+  "time_challenges_list": {
+    "count": 1,
+    "list": [
+      {
+        "MethodName": "Emergency",
+        "ParamsHash": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+        "ChallengeStartHeight": 9
+      }
+    ]
+  }
+}

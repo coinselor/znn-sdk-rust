@@ -1,0 +1,25 @@
+{
+  "description": "Valid 32-byte hashes expressed in the canonical lowercase 64-character form, with their short form (first 6 + '...' + last 6). Includes the empty all-zeros hash.",
+  "hashes": [
+    {
+      "name": "empty",
+      "hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "short": "000000...000000"
+    },
+    {
+      "name": "sha3_256_empty",
+      "hex": "a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a",
+      "short": "a7ffc6...f8434a"
+    },
+    {
+      "name": "ascending",
+      "hex": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "short": "012345...abcdef"
+    },
+    {
+      "name": "high",
+      "hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "short": "ffffff...ffffff"
+    }
+  ]
+}

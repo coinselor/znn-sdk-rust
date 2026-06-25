@@ -1,0 +1,18 @@
+{
+  "description": "Known Zenon addresses with 20-byte cores (hex). Contract addresses carry user byte 1 and are members of the embedded contract set; the empty and user addresses are not.",
+  "addresses": [
+    { "name": "empty", "address": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsggv2f", "core_hex": "0000000000000000000000000000000000000000", "embedded": false },
+    { "name": "user", "address": "z1qqqsyqcyq5rqwzqfpg9scrgwpugpzysnqaefud", "core_hex": "000102030405060708090a0b0c0d0e0f10111213", "embedded": false },
+    { "name": "plasma", "address": "z1qxemdeddedxplasmaxxxxxxxxxxxxxxxxsctrp", "core_hex": "01b3b6e5adcb4c1ff61be98c6318c6318c6318c6", "embedded": true },
+    { "name": "pillar", "address": "z1qxemdeddedxpyllarxxxxxxxxxxxxxxxsy3fmg", "core_hex": "01b3b6e5adcb4c127ffd198c6318c6318c6318c6", "embedded": true },
+    { "name": "token", "address": "z1qxemdeddedxt0kenxxxxxxxxxxxxxxxxh9amk0", "core_hex": "01b3b6e5adcb4cb7db33318c6318c6318c6318c6", "embedded": true },
+    { "name": "sentinel", "address": "z1qxemdeddedxsentynelxxxxxxxxxxxxxwy0r2r", "core_hex": "01b3b6e5adcb4d0ccd649e7e6318c6318c6318c6", "embedded": true },
+    { "name": "swap", "address": "z1qxemdeddedxswapxxxxxxxxxxxxxxxxxxl4yww", "core_hex": "01b3b6e5adcb4d077426318c6318c6318c6318c6", "embedded": true },
+    { "name": "stake", "address": "z1qxemdeddedxstakexxxxxxxxxxxxxxxxjv8v62", "core_hex": "01b3b6e5adcb4d05f6d9318c6318c6318c6318c6", "embedded": true },
+    { "name": "spork", "address": "z1qxemdeddedxsp0rkxxxxxxxxxxxxxxxx956u48", "core_hex": "01b3b6e5adcb4d00bc76318c6318c6318c6318c6", "embedded": true },
+    { "name": "accelerator", "address": "z1qxemdeddedxaccelerat0rxxxxxxxxxxp4tk22", "core_hex": "01b3b6e5adcb4ddc633fc8fab78cc6318c6318c6", "embedded": true },
+    { "name": "htlc", "address": "z1qxemdeddedxhtlcxxxxxxxxxxxxxxxxxygecvw", "core_hex": "01b3b6e5adcb4d75ff06318c6318c6318c6318c6", "embedded": true },
+    { "name": "bridge", "address": "z1qxemdeddedxdrydgexxxxxxxxxxxxxxxmqgr0d", "core_hex": "01b3b6e5adcb4cd191a8c98c6318c6318c6318c6", "embedded": true },
+    { "name": "liquidity", "address": "z1qxemdeddedxlyquydytyxxxxxxxxxxxxflaaae", "core_hex": "01b3b6e5adcb4df2038469164318c6318c6318c6", "embedded": true }
+  ]
+}

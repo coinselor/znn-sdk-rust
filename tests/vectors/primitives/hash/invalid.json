@@ -1,0 +1,35 @@
+{
+  "description": "Strings that Hash::parse must reject: wrong decoded length, malformed hex, or a disallowed 0x/0X prefix.",
+  "invalid": [
+    {
+      "name": "too_short",
+      "hex": "00",
+      "reason": "decodes to 1 byte, not 32"
+    },
+    {
+      "name": "too_long",
+      "hex": "000000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "decodes to 33 bytes, not 32"
+    },
+    {
+      "name": "odd_length",
+      "hex": "000",
+      "reason": "odd number of hex digits"
+    },
+    {
+      "name": "non_hex",
+      "hex": "g000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "64 chars but contains a non-hex character"
+    },
+    {
+      "name": "hex_prefix_lower",
+      "hex": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "0x-prefixed; not a bare canonical 64-char hex string"
+    },
+    {
+      "name": "hex_prefix_upper",
+      "hex": "0X0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "0X-prefixed; not a bare canonical 64-char hex string"
+    }
+  ]
+}

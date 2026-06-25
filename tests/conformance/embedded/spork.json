@@ -1,0 +1,22 @@
+{
+  "description": "Spork model conformance.",
+  "spork": {
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "name": "acceleratorTestnetSpork",
+    "description": "Activate the Accelerator on testnet",
+    "activated": true,
+    "enforcementHeight": 100
+  },
+  "spork_list": {
+    "count": 1,
+    "list": [
+      {
+        "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "name": "acceleratorTestnetSpork",
+        "description": "Activate the Accelerator on testnet",
+        "activated": true,
+        "enforcementHeight": 100
+      }
+    ]
+  }
+}

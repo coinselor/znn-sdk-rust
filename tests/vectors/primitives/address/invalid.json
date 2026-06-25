@@ -1,0 +1,8 @@
+{
+  "description": "Strings for which is_valid must return false: bad checksum, wrong HRP, and a non-canonical (uppercase) form of a valid address.",
+  "invalid": [
+    { "name": "bad_checksum", "address": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsggv2g", "reason": "invalid Bech32 checksum" },
+    { "name": "wrong_hrp", "address": "x1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqxa06sl", "reason": "HRP is not z" },
+    { "name": "non_canonical_uppercase", "address": "Z1QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQSGGV2F", "reason": "uppercase form is not the canonical lowercase encoding" }
+  ]
+}

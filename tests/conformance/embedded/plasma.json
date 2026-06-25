@@ -1,0 +1,37 @@
+{
+  "description": "Plasma model conformance. get_required_param.blockType is a decimal string and data is the standard base64 of 0x000102.",
+  "fusion_entry": {
+    "qsrAmount": "5000000000",
+    "beneficiary": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "expirationHeight": 100,
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  },
+  "fusion_entry_list": {
+    "qsrAmount": "5000000000",
+    "count": 1,
+    "list": [
+      {
+        "qsrAmount": "5000000000",
+        "beneficiary": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "expirationHeight": 100,
+        "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+      }
+    ]
+  },
+  "plasma_info": {
+    "currentPlasma": 1000,
+    "maxPlasma": 20000,
+    "qsrAmount": "5000000000"
+  },
+  "get_required_param": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "blockType": "2",
+    "toAddress": "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx",
+    "data": "AAEC"
+  },
+  "get_required_response": {
+    "availablePlasma": 1000,
+    "basePlasma": 10,
+    "requiredDifficulty": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Embedded shared model conformance. Realistic Zenon fixtures: a producer address, ZNN/QSR base-unit amounts, a 64-hex hash, a vote tally, and a PascalCase time-challenge object.",
+  "uncollected_reward": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "znnAmount": "15000000000",
+    "qsrAmount": "3750000000"
+  },
+  "reward_history_entry": {
+    "epoch": 100,
+    "znnAmount": "5000000000",
+    "qsrAmount": "1250000000"
+  },
+  "reward_history_list": {
+    "count": 2,
+    "list": [
+      { "epoch": 100, "znnAmount": "5000000000", "qsrAmount": "1250000000" },
+      { "epoch": 101, "znnAmount": "6000000000", "qsrAmount": "1500000000" }
+    ]
+  },
+  "vote_breakdown": {
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "yes": 12,
+    "no": 3,
+    "total": 15
+  },
+  "pillar_vote": {
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "name": "Pillar1",
+    "vote": 1
+  },
+  "security_info": {
+    "guardians": [
+      "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+      "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx"
+    ],
+    "guardiansVotes": [
+      "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx"
+    ],
+    "administratorDelay": 1000,
+    "softDelay": 500
+  },
+  "reward_deposit": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "znnAmount": "7000000000",
+    "qsrAmount": "1750000000"
+  },
+  "time_challenge_info": {
+    "MethodName": "VoteFor",
+    "ParamsHash": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+    "ChallengeStartHeight": 42
+  }
+}

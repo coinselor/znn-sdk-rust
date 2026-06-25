@@ -1,0 +1,10 @@
+{
+  "description": "Argon2id (version 0x13) known-answer vector for the Zenon wallet KDF parameters: password (32 x 0x01), salt (16 x 0x02), memory 65536 KiB, 1 pass, 4 lanes, 32-byte tag, no secret or associated data (the wallet KDF uses neither). The tag was produced by the RustCrypto argon2 implementation this crate depends on. All byte strings are hex-encoded.",
+  "password": "0101010101010101010101010101010101010101010101010101010101010101",
+  "salt": "02020202020202020202020202020202",
+  "memory_kib": 65536,
+  "iterations": 1,
+  "parallelism": 4,
+  "tag_length": 32,
+  "tag": "60ff86861697d36b3f212cb44856226a5fc84dfc45390d3ff841426a1180b07f"
+}

@@ -1,0 +1,8 @@
+{
+  "description": "merge concatenates byte slices in order. Cases: ordered concatenation of three slices, an empty list, and a list containing empty sub-slices.",
+  "cases": [
+    { "name": "three_slices", "arrays": [[1, 2], [3], [4, 5, 6]], "merged": [1, 2, 3, 4, 5, 6] },
+    { "name": "empty_list", "arrays": [], "merged": [] },
+    { "name": "empty_subslices", "arrays": [[], [7], []], "merged": [7] }
+  ]
+}

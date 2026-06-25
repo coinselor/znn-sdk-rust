@@ -1,0 +1,10 @@
+{
+  "description": "long_to_bytes returns the 8-byte big-endian encoding of a u64. Cases cover zero, one, a value crossing a byte boundary, a distinct-byte value, and the u64 maximum.",
+  "cases": [
+    { "name": "zero", "value": 0, "bytes": [0, 0, 0, 0, 0, 0, 0, 0] },
+    { "name": "one", "value": 1, "bytes": [0, 0, 0, 0, 0, 0, 0, 1] },
+    { "name": "two_fifty_six", "value": 256, "bytes": [0, 0, 0, 0, 0, 0, 1, 0] },
+    { "name": "distinct_bytes", "value": 72623859790382856, "bytes": [1, 2, 3, 4, 5, 6, 7, 8] },
+    { "name": "max", "value": 18446744073709551615, "bytes": [255, 255, 255, 255, 255, 255, 255, 255] }
+  ]
+}

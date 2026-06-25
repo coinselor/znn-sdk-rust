@@ -1,0 +1,50 @@
+{
+  "description": "Liquidity model conformance.",
+  "token_tuple": {
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "znnPercentage": 50,
+    "qsrPercentage": 50,
+    "minAmount": "1000000000"
+  },
+  "liquidity_info": {
+    "administrator": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "isHalted": false,
+    "znnReward": "100000000",
+    "qsrReward": "50000000",
+    "tokenTuples": [
+      {
+        "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+        "znnPercentage": 50,
+        "qsrPercentage": 50,
+        "minAmount": "1000000000"
+      }
+    ]
+  },
+  "liquidity_stake_entry": {
+    "amount": "5000000000",
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "weightedAmount": "7500000000",
+    "startTime": 1700000000,
+    "revokeTime": 0,
+    "expirationTime": 1730000000,
+    "stakeAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  },
+  "liquidity_stake_list": {
+    "totalAmount": "5000000000",
+    "totalWeightedAmount": "7500000000",
+    "count": 1,
+    "list": [
+      {
+        "amount": "5000000000",
+        "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+        "weightedAmount": "7500000000",
+        "startTime": 1700000000,
+        "revokeTime": 0,
+        "expirationTime": 1730000000,
+        "stakeAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+      }
+    ]
+  }
+}

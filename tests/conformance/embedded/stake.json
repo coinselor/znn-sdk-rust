@@ -1,0 +1,26 @@
+{
+  "description": "Stake model conformance.",
+  "stake_entry": {
+    "amount": "100000000000",
+    "weightedAmount": "150000000000",
+    "startTimestamp": 1700000000,
+    "expirationTimestamp": 1730000000,
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  },
+  "stake_list": {
+    "totalAmount": "100000000000",
+    "totalWeightedAmount": "150000000000",
+    "count": 1,
+    "list": [
+      {
+        "amount": "100000000000",
+        "weightedAmount": "150000000000",
+        "startTimestamp": 1700000000,
+        "expirationTimestamp": 1730000000,
+        "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+      }
+    ]
+  }
+}

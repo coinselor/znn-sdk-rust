@@ -1,0 +1,8 @@
+{
+  "description": "convert_bech32_bits 5->8 without padding; input is the 32 5-bit groups of z1qxemdeddedxpyllarxxxxxxxxxxxxxxxsy3fmg, output is its 20-byte core",
+  "from_bits": 5,
+  "to_bits": 8,
+  "pad": false,
+  "input": [0, 6, 25, 27, 13, 25, 13, 13, 25, 13, 6, 1, 4, 31, 31, 29, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+  "output": [1, 179, 182, 229, 173, 203, 76, 18, 127, 253, 25, 140, 99, 24, 198, 49, 140, 99, 24, 198]
+}

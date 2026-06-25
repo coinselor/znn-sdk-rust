@@ -1,0 +1,10 @@
+{
+  "description": "int_to_bytes returns the 4-byte big-endian encoding of a u32. Cases cover zero, one, a value crossing a byte boundary, a distinct-byte value, and the u32 maximum.",
+  "cases": [
+    { "name": "zero", "value": 0, "bytes": [0, 0, 0, 0] },
+    { "name": "one", "value": 1, "bytes": [0, 0, 0, 1] },
+    { "name": "two_fifty_six", "value": 256, "bytes": [0, 0, 1, 0] },
+    { "name": "distinct_bytes", "value": 16909060, "bytes": [1, 2, 3, 4] },
+    { "name": "max", "value": 4294967295, "bytes": [255, 255, 255, 255] }
+  ]
+}

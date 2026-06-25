@@ -1,0 +1,38 @@
+{
+  "description": "Stats model conformance. Realistic fixtures: a single peer, a 3-peer network whose self entry repeats the peer, the node commit/version, a linux os info object, and a syncing chain state.",
+  "peer": {
+    "publicKey": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "ip": "192.0.2.10"
+  },
+  "network_info": {
+    "numPeers": 3,
+    "self": {
+      "publicKey": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+      "ip": "192.0.2.10"
+    },
+    "peers": [
+      { "publicKey": "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx", "ip": "192.0.2.11" },
+      { "publicKey": "z1qz8v73ea2vy2rrlq7skssngu8cm8mknjjkr2ju", "ip": "192.0.2.12" }
+    ]
+  },
+  "process_info": {
+    "commit": "0123abcd",
+    "version": "0.0.1"
+  },
+  "os_info": {
+    "os": "linux",
+    "platform": "ubuntu",
+    "platformVersion": "ignored-and-overwritten",
+    "platformFamily": "debian",
+    "kernelVersion": "5.15.0",
+    "memoryTotal": 17179869184,
+    "memoryFree": 8589934592,
+    "numCPU": 8,
+    "numGoroutine": 1024
+  },
+  "sync_info": {
+    "state": 1,
+    "currentHeight": 123456,
+    "targetHeight": 123457
+  }
+}

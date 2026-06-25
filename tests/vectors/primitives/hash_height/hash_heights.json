@@ -1,0 +1,25 @@
+{
+  "description": "Valid HashHeight values as {hash, height} JSON objects: the canonical lowercase 64-character hash hex and an unsigned height. Includes the empty value (all-zeros hash, height 0) and the u64 maximum height.",
+  "hash_heights": [
+    {
+      "name": "empty",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "height": 0
+    },
+    {
+      "name": "genesis_like",
+      "hash": "a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a",
+      "height": 1
+    },
+    {
+      "name": "ascending_mid_height",
+      "hash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "height": 100
+    },
+    {
+      "name": "high_hash_max_height",
+      "hash": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "height": 18446744073709551615
+    }
+  ]
+}

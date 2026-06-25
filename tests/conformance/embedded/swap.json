@@ -1,0 +1,12 @@
+{
+  "description": "Swap model conformance.",
+  "swap_asset_entry": {
+    "keyIdHash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "qsr": "5000000000",
+    "znn": "10000000000"
+  },
+  "swap_legacy_pillar_entry": {
+    "numPillars": 3,
+    "keyIdHash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  }
+}

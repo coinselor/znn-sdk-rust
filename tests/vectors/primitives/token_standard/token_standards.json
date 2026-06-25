@@ -1,0 +1,8 @@
+{
+  "description": "Well-known Zenon token standards (ZTS) with 10-byte cores (hex): the ZNN and QSR tokens with the symbols by_symbol resolves to them, and the empty token standard (ten zero bytes, no resolving symbol).",
+  "token_standards": [
+    { "name": "znn", "zts": "zts1znnxxxxxxxxxxxxx9z4ulx", "core_hex": "14e66318c6318c6318c6", "symbols": ["znn", "ZNN"] },
+    { "name": "qsr", "zts": "zts1qsrxxxxxxxxxxxxxmrhjll", "core_hex": "04066318c6318c6318c6", "symbols": ["qsr", "QSR"] },
+    { "name": "empty", "zts": "zts1qqqqqqqqqqqqqqqqtq587y", "core_hex": "00000000000000000000", "symbols": [] }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "description": "left_pad_bytes left-pads with leading zeros to the target size, returning the input unchanged when it is already at least that long.",
+  "cases": [
+    { "name": "pad_short", "bytes": [1, 2], "size": 4, "padded": [0, 0, 1, 2] },
+    { "name": "pad_empty", "bytes": [], "size": 3, "padded": [0, 0, 0] },
+    { "name": "exact_length", "bytes": [9, 9], "size": 2, "padded": [9, 9] },
+    { "name": "already_longer", "bytes": [1, 2, 3, 4], "size": 2, "padded": [1, 2, 3, 4] }
+  ]
+}

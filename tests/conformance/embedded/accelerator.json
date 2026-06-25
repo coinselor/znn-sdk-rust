@@ -1,0 +1,70 @@
+{
+  "description": "Accelerator model conformance. The phase object nests a `phase` body and a `votes` breakdown.",
+  "phase": {
+    "phase": {
+      "id": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "projectID": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "name": "Phase 1",
+      "description": "First phase",
+      "url": "https://example.com",
+      "znnFundsNeeded": "100000000",
+      "qsrFundsNeeded": "50000000",
+      "creationTimestamp": 1700000000,
+      "acceptedTimestamp": 1700000100,
+      "status": 2
+    },
+    "votes": {
+      "id": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "yes": 5,
+      "no": 1,
+      "total": 6
+    }
+  },
+  "project": {
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "owner": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "name": "Project A",
+    "description": "An accelerator project",
+    "url": "https://example.com",
+    "znnFundsNeeded": "300000000",
+    "qsrFundsNeeded": "150000000",
+    "creationTimestamp": 1700000000,
+    "lastUpdateTimestamp": 1700000200,
+    "status": 1,
+    "votes": {
+      "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "yes": 10,
+      "no": 2,
+      "total": 12
+    },
+    "phaseIds": [
+      "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210"
+    ],
+    "phases": [
+      {
+        "phase": {
+          "id": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+          "projectID": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+          "name": "Phase 1",
+          "description": "First phase",
+          "url": "https://example.com",
+          "znnFundsNeeded": "100000000",
+          "qsrFundsNeeded": "50000000",
+          "creationTimestamp": 1700000000,
+          "acceptedTimestamp": 1700000100,
+          "status": 2
+        },
+        "votes": {
+          "id": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+          "yes": 5,
+          "no": 1,
+          "total": 6
+        }
+      }
+    ]
+  },
+  "project_list": {
+    "count": 1,
+    "list": []
+  }
+}

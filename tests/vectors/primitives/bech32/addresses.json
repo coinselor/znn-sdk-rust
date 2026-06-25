@@ -1,0 +1,40 @@
+{
+  "description": "Known Zenon addresses (HRP z, Bech32 checksum) with their 20-byte cores (hex).",
+  "valid": [
+    {
+      "name": "empty",
+      "address": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsggv2f",
+      "hrp": "z",
+      "core_hex": "0000000000000000000000000000000000000000"
+    },
+    {
+      "name": "pillar_contract",
+      "address": "z1qxemdeddedxpyllarxxxxxxxxxxxxxxxsy3fmg",
+      "hrp": "z",
+      "core_hex": "01b3b6e5adcb4c127ffd198c6318c6318c6318c6"
+    },
+    {
+      "name": "token_contract",
+      "address": "z1qxemdeddedxt0kenxxxxxxxxxxxxxxxxh9amk0",
+      "hrp": "z",
+      "core_hex": "01b3b6e5adcb4cb7db33318c6318c6318c6318c6"
+    }
+  ],
+  "invalid": [
+    {
+      "name": "bad_checksum",
+      "address": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsggv2g",
+      "reason": "invalid Bech32 checksum"
+    },
+    {
+      "name": "wrong_hrp",
+      "address": "x1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqxa06sl",
+      "reason": "valid Bech32 checksum but HRP is x, not z"
+    },
+    {
+      "name": "bech32m_checksum",
+      "address": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq95cq0t",
+      "reason": "carries a Bech32m checksum; must be rejected"
+    }
+  ]
+}

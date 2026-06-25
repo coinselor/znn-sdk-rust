@@ -1,0 +1,13 @@
+{
+  "description": "Strings parse must reject. malformed_checksum tampers the final checksum char of the ZNN token standard; bech32m_checksum is the ZNN core with a Bech32m checksum (same data part, different checksum constant) and must be rejected because token standards use the Bech32 variant, not Bech32m; uppercase_znn is the all-uppercase non-canonical ZNN string whose human-readable part decodes to ZTS, not zts; mixed_case_znn mixes upper and lower case, which Bech32 forbids; wrong_hrp_address is a canonical Zenon address (human-readable part z); wrong_hrp_zt has a valid checksum but the human-readable part zt; core_11_bytes and core_9_bytes are valid-checksum zts Bech32 strings whose decoded cores are 11 and 9 bytes instead of 10.",
+  "invalid": [
+    { "name": "malformed_checksum", "zts": "zts1znnxxxxxxxxxxxxx9z4uly" },
+    { "name": "bech32m_checksum", "zts": "zts1znnxxxxxxxxxxxxxs79s6y" },
+    { "name": "uppercase_znn", "zts": "ZTS1ZNNXXXXXXXXXXXXX9Z4ULX" },
+    { "name": "mixed_case_znn", "zts": "zts1ZNNxxxxxxxxxxxxx9z4ulx" },
+    { "name": "wrong_hrp_address", "zts": "z1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsggv2f" },
+    { "name": "wrong_hrp_zt", "zts": "zt1qqqqqqqqqqqqqqqq7n60tn" },
+    { "name": "core_11_bytes", "zts": "zts1qqqsyqcyq5rqwzqfpguaq3l3" },
+    { "name": "core_9_bytes", "zts": "zts1qqqsyqcyq5rqwzqnc020f" }
+  ]
+}

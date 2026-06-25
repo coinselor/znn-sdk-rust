@@ -1,0 +1,15 @@
+{
+  "description": "SHA-256 (NIST FIPS 180-4) known-answer vectors: hex-encoded input bytes and the 32-byte digest.",
+  "vectors": [
+    {
+      "name": "empty",
+      "input": "",
+      "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "abc",
+      "input": "616263",
+      "digest": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    }
+  ]
+}

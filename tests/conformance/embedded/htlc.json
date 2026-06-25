@@ -1,0 +1,14 @@
+{
+  "description": "HTLC model conformance. hashLock is the standard base64 of 0xdeadbeef.",
+  "htlc_info": {
+    "id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "timeLocked": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "hashLocked": "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx",
+    "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+    "amount": "100000000",
+    "expirationTime": 1700000000,
+    "hashType": 0,
+    "keyMaxSize": 32,
+    "hashLock": "3q2+7w=="
+  }
+}

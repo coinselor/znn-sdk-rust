@@ -1,0 +1,68 @@
+{
+  "description": "Pillar model conformance.",
+  "pillar_epoch_stats": { "producedMomentums": 10, "expectedMomentums": 12 },
+  "pillar_info": {
+    "name": "Pillar1",
+    "rank": 1,
+    "type": 2,
+    "ownerAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "producerAddress": "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx",
+    "withdrawAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "giveMomentumRewardPercentage": 25,
+    "giveDelegateRewardPercentage": 25,
+    "isRevocable": false,
+    "revokeCooldown": 0,
+    "revokeTimestamp": 0,
+    "currentStats": { "producedMomentums": 10, "expectedMomentums": 12 },
+    "weight": "100000000000",
+    "producedMomentums": 10,
+    "expectedMomentums": 12
+  },
+  "pillar_info_list": {
+    "count": 1,
+    "list": [
+      {
+        "name": "Pillar1",
+        "rank": 1,
+        "type": 2,
+        "ownerAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "producerAddress": "z1qr4pexnnfaexqqz8nscjjcsajy5hdqfkgadvwx",
+        "withdrawAddress": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "giveMomentumRewardPercentage": 25,
+        "giveDelegateRewardPercentage": 25,
+        "isRevocable": false,
+        "revokeCooldown": 0,
+        "revokeTimestamp": 0,
+        "currentStats": { "producedMomentums": 10, "expectedMomentums": 12 },
+        "weight": "100000000000",
+        "producedMomentums": 10,
+        "expectedMomentums": 12
+      }
+    ]
+  },
+  "pillar_epoch_history": {
+    "name": "Pillar1",
+    "epoch": 5,
+    "giveBlockRewardPercentage": 25,
+    "giveDelegateRewardPercentage": 25,
+    "producedBlockNum": 10,
+    "expectedBlockNum": 12,
+    "weight": "100000000000"
+  },
+  "pillar_epoch_history_list": {
+    "count": 1,
+    "list": [
+      {
+        "name": "Pillar1",
+        "epoch": 5,
+        "giveBlockRewardPercentage": 25,
+        "giveDelegateRewardPercentage": 25,
+        "producedBlockNum": 10,
+        "expectedBlockNum": 12,
+        "weight": "100000000000"
+      }
+    ]
+  },
+  "delegation_info_active": { "name": "Pillar1", "status": 1, "weight": "100000000000" },
+  "delegation_info_inactive": { "name": "Pillar2", "status": 0, "weight": "0" }
+}

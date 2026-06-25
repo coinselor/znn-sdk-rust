@@ -1,0 +1,21 @@
+{
+  "canonical": [
+    { "name": "int", "canonical": "int256" },
+    { "name": "uint8", "canonical": "uint8" },
+    { "name": "address[]", "canonical": "address[]" },
+    { "name": "uint256[3]", "canonical": "uint256[3]" }
+  ],
+  "arrays": [
+    { "name": "uint8[]", "dynamic": true, "length": null },
+    { "name": "uint8[2]", "dynamic": false, "length": 2 }
+  ],
+  "negativeInt64": {
+    "value": -1,
+    "encodedHex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  "bytes": {
+    "valueHex": "68656c6c6f",
+    "encodedHex": "000000000000000000000000000000000000000000000000000000000000000568656c6c6f000000000000000000000000000000000000000000000000000000"
+  },
+  "fixedArray": { "name": "uint8[4]", "fixedSize": 128 }
+}

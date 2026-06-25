@@ -1,0 +1,8 @@
+{
+  "description": "Zenon AccountHeader model conformance. The fixture contains one header with an address, hash, and height.",
+  "header": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "hash": "3835082b4afb76971d58d6ad510e7e91f3bb0d41912fac4ec4cfef7bd7bbea73",
+    "height": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "JSON objects that from_json must reject with Error::InvalidInput because the hash field is not a canonical 64-character hash hex string. The height is a valid unsigned integer in every case so the failure is attributable to the hash alone.",
+  "invalid": [
+    {
+      "name": "hash_too_short",
+      "hash": "00",
+      "height": 1,
+      "reason": "hash decodes to 1 byte, not 32"
+    },
+    {
+      "name": "hash_too_long",
+      "hash": "000000000000000000000000000000000000000000000000000000000000000000",
+      "height": 1,
+      "reason": "hash decodes to 33 bytes, not 32"
+    },
+    {
+      "name": "hash_non_hex",
+      "hash": "g000000000000000000000000000000000000000000000000000000000000000",
+      "height": 1,
+      "reason": "64 chars but contains a non-hex character"
+    },
+    {
+      "name": "hash_prefixed",
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "height": 1,
+      "reason": "0x-prefixed; not a bare canonical 64-char hash hex string"
+    }
+  ]
+}

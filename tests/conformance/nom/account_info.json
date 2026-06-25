@@ -1,0 +1,30 @@
+{
+  "description": "Zenon AccountInfo model conformance. The fixture includes a populated account with a ZNN balance and an empty account at height 0.",
+  "account_info": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "accountHeight": 2,
+    "balanceInfoMap": {
+      "zts1znnxxxxxxxxxxxxx9z4ulx": {
+        "token": {
+          "name": "Zenon Coin",
+          "symbol": "ZNN",
+          "domain": "zenon.network",
+          "totalSupply": "19500000000000",
+          "decimals": 8,
+          "owner": "z1qxemdeddedxpyllarxxxxxxxxxxxxxxxsy3fmg",
+          "tokenStandard": "zts1znnxxxxxxxxxxxxx9z4ulx",
+          "maxSupply": "4611686018427387903",
+          "isBurnable": true,
+          "isMintable": true,
+          "isUtility": true
+        },
+        "balance": "1000000000"
+      }
+    }
+  },
+  "empty_account_info": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "accountHeight": 0,
+    "balanceInfoMap": {}
+  }
+}

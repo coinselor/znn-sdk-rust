@@ -1,0 +1,40 @@
+{
+  "description": "JSON values that from_json must reject with Error::InvalidInput for a reason other than the hash hex. Each `value` is the raw JSON passed to from_json. Where a hash is present it is the canonical all-zeros hash, so the failure is attributable to the object shape or the height alone.",
+  "malformed": [
+    {
+      "name": "not_an_object",
+      "value": [],
+      "reason": "a JSON array is not an object"
+    },
+    {
+      "name": "missing_hash",
+      "value": { "height": 1 },
+      "reason": "the hash field is absent"
+    },
+    {
+      "name": "missing_height",
+      "value": { "hash": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "reason": "the height field is absent"
+    },
+    {
+      "name": "negative_height",
+      "value": { "hash": "0000000000000000000000000000000000000000000000000000000000000000", "height": -1 },
+      "reason": "height is negative and not an unsigned integer"
+    },
+    {
+      "name": "fractional_height",
+      "value": { "hash": "0000000000000000000000000000000000000000000000000000000000000000", "height": 1.5 },
+      "reason": "height is fractional and not an integer"
+    },
+    {
+      "name": "overflow_height",
+      "value": { "hash": "0000000000000000000000000000000000000000000000000000000000000000", "height": 18446744073709551616 },
+      "reason": "height exceeds the u64 maximum"
+    },
+    {
+      "name": "string_height",
+      "value": { "hash": "0000000000000000000000000000000000000000000000000000000000000000", "height": "1" },
+      "reason": "height is a string, not a number"
+    }
+  ]
+}

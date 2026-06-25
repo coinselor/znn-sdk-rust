@@ -1,0 +1,32 @@
+{
+  "signature": {
+    "name": "Register",
+    "types": ["string", "address"],
+    "formatted": "Register(string,address)"
+  },
+  "selector": {
+    "name": "Register",
+    "types": ["string"],
+    "signature": "Register(string)"
+  },
+  "tuple": {
+    "address": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "uint": 7,
+    "string": "zenon",
+    "encodedHex": "0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000bbfd629028e53999aa179ac6de460ef72aa76e00000000000000000000000000000000000000000000000000000000000000057a656e6f6e000000000000000000000000000000000000000000000000000000"
+  },
+  "function": {
+    "json": [
+      { "type": "function", "name": "Stake", "inputs": [ { "name": "durationInSec", "type": "int64" } ] }
+    ],
+    "name": "Stake",
+    "signature": "Stake(int64)"
+  },
+  "roundTripFunction": {
+    "name": "Register",
+    "types": ["string", "uint256"],
+    "string": "pillar-one",
+    "uint": 42,
+    "signature": "Register(string,uint256)"
+  }
+}

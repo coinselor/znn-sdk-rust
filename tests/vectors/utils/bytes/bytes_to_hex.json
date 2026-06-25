@@ -1,0 +1,9 @@
+{
+  "description": "bytes_to_hex returns the canonical lowercase hex string. Cases cover the empty slice, a zero byte, a high byte, and a multi-byte value.",
+  "cases": [
+    { "name": "empty", "bytes": [], "hex": "" },
+    { "name": "zero_byte", "bytes": [0], "hex": "00" },
+    { "name": "high_byte", "bytes": [255], "hex": "ff" },
+    { "name": "deadbeef", "bytes": [222, 173, 190, 239], "hex": "deadbeef" }
+  ]
+}

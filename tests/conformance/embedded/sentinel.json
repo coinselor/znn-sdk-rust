@@ -1,0 +1,22 @@
+{
+  "description": "Sentinel model conformance.",
+  "sentinel_info": {
+    "owner": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+    "registrationTimestamp": 1700000000,
+    "isRevocable": false,
+    "revokeCooldown": 0,
+    "active": true
+  },
+  "sentinel_info_list": {
+    "count": 1,
+    "list": [
+      {
+        "owner": "z1qzal6c5s9rjnnxd2z7dvdhjxpmmj4fmw56a0mz",
+        "registrationTimestamp": 1700000000,
+        "isRevocable": false,
+        "revokeCooldown": 0,
+        "active": true
+      }
+    ]
+  }
+}

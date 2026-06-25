@@ -1,0 +1,12 @@
+{
+  "description": "ledger.publishRawTransaction node response conformance. The node accepts a valid account block with a null response and surfaces a non-null response when the block is rejected. Neither field-level rejection shape is documented in the Dart/TS SDKs; the Rust model treats a recognizable rejection string as Rejected { message } and any other non-null value as Unexpected(value).",
+  "accepted": null,
+  "rejected": {
+    "description": "A non-null string rejection. The message is surfaced via PublishError::Rejected.",
+    "response": "AccountBlock is already published"
+  },
+  "unexpected": {
+    "description": "A non-null object whose shape is not a recognized rejection; surfaced via PublishError::Unexpected.",
+    "response": { "error": "unknown", "code": -32000 }
+  }
+}

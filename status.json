@@ -1,0 +1,30 @@
+{
+  "name": "Zenon SDK for Rust",
+  "repository_url": "https://github.com/coinselor/znn-sdk-rust",
+  "maintainers": ["coinselor"],
+  "functionalities": [
+    { "name": "ABI Encoding", "status": 100, "notes": "" },
+    { "name": "ABI Decoding", "status": 100, "notes": "" },
+    { "name": "Argon2id", "status": 100, "notes": "" },
+    { "name": "Ed25519", "status": 100, "notes": "" },
+    { "name": "Bip44", "status": 100, "notes": "" },
+    { "name": "Wallet", "status": 100, "notes": "" },
+    { "name": "PoW", "status": 100, "notes": "" },
+    { "name": "Ledger API", "status": 100, "notes": "" },
+    { "name": "Stats API", "status": 100, "notes": "" },
+    { "name": "Subscribe API", "status": 100, "notes": "" },
+    { "name": "Accelerator API", "status": 100, "notes": "" },
+    { "name": "Bridge API", "status": 100, "notes": "" },
+    { "name": "Htlc API", "status": 100, "notes": "" },
+    { "name": "Liquidity API", "status": 100, "notes": "" },
+    { "name": "Pillar API", "status": 100, "notes": "" },
+    { "name": "Plasma API", "status": 100, "notes": "" },
+    { "name": "Sentinel API", "status": 100, "notes": "" },
+    { "name": "Spork API", "status": 100, "notes": "" },
+    { "name": "Stake API", "status": 100, "notes": "" },
+    { "name": "Swap API", "status": 100, "notes": "" },
+    { "name": "Token API", "status": 100, "notes": "" },
+    { "name": "Unit tests", "status": 100, "notes": "" },
+    { "name": "Documentation", "status": 100, "notes": "" }
+  ]
+}
